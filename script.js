@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const logoLink = document.querySelector('.logo__link');
+    const spanElement = document.querySelector('span a');
 
-    if (logoLink) {
-        logoLink.setAttribute('href', 'https://coudrecoudre.com');
+    if (spanElement) {
+        spanElement.setAttribute('href', 'https://coudrecoudre.com');
     }
 });
